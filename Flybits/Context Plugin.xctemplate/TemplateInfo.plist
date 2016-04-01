@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Sort Order -->
+	<key>SortOrder</key>
+	<string>7</string>
+
+	<!-- Supported Platforms -->
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+
+  	<!-- Default File Name -->
+  	<key>DefaultCompletionName</key>
+  	<string>MyContextDataProvider</string>
+
+  	<!-- Description -->
+  	<key>Description</key>
+	<string>A Flybits Context Plugin conforming to the ContextDataProvider protocol.</string>
+
+  	<!-- Summary -->
+	<key>Summary</key>
+	<string>A Flybits Context Plugin conforming to the ContextDataProvider protocol.</string>
+
+  	<!-- Kind -->
+  	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+
+	<!-- Options UI -->
+	<key>Options</key>
+	<array>
+		<!-- Filename -->
+		<dict>
+			<!-- Internal Variables -->
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<true/>
+
+			<!-- UI Layout -->
+			<key>Name</key>
+			<string>Class:</string>
+			<key>Description</key>
+			<string>The name of the class to create</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+
+		<!-- Subclass -->
+		<dict>
+			<!-- Internal Variables -->
+			<key>Identifier</key>
+			<string>cocoaTouchSubclass</string>
+			<key>Required</key>
+			<string>YES</string>
+
+			<!-- UI Layout -->
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>Description</key>
+			<string>This class will implement the ContextDataProvider protocol.</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Default</key>
+			<string>NSObject</string>
+			<key>Values</key>
+			<array>
+				<string>NSObject</string>
+			</array>
+		</dict>
+
+		<!-- Language Choice -->
+		<dict>
+			<!-- Internal Variables -->
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Required</key>
+			<true/>
+			<key>MainTemplateFiles</key>
+			<dict>
+				<key>Swift</key>
+				<string>___FILEBASENAME___.swift</string>
+				<key>Objective-C</key>
+				<string>___FILEBASENAME___.m</string>
+			</dict>
+			<key>AllowedTypes</key>
+			<dict>
+				<key>Swift</key>
+				<array>
+					<string>public.swift-source</string>
+				</array>
+				<key>Objective-C</key>
+				<array>
+					<string>public.objective-c-source</string>
+					<string>public.objective-c-plus-plus-source</string>
+				</array>
+			</dict>
+
+			<!-- UI Layout -->
+			<key>Name</key>
+			<string>Language:</string>
+			<key>Description</key>
+			<string>The implementation language</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Swift</string>
+			<key>Values</key>
+			<array>
+				<string>Swift</string>
+				<string>Objective-C</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

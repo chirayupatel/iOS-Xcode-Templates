@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Sort Order -->
+	<key>SortOrder</key>
+	<string>6</string>
+
+	<!-- Supported Platforms -->
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+
+  	<!-- Default File Name -->
+  	<key>DefaultCompletionName</key>
+  	<string>MyMomentModel</string>
+
+  	<!-- Description -->
+  	<key>Description</key>
+  	<string>A class representing a Moment's model data. (Swift Only)</string>
+
+  	<!-- Summary -->
+	<key>Summary</key>
+	<string>A class representing a Moment's model data. (Swift Only)</string>
+
+  	<!-- Kind -->
+  	<key>Kind</key>
+  	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+
+  	<!-- Main Template File (ResponseObjectSerializable is Swift only) -->
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+
+	<!-- Allowed Types (API is Swift only) -->
+	<key>AllowedTypes</key>
+	<dict>
+		<key>Swift</key>
+		<array>
+			<string>public.swift-source</string>
+		</array>
+	</dict>
+</dict>
+</plist>
